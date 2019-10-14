@@ -8,7 +8,7 @@ namespace MessageInterceptor.Business
     {
         public string Intercept() 
         {
-            throw new NotImplementedException();
+            return string.Empty;
         }
     }
 }

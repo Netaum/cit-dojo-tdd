@@ -8,7 +8,7 @@ namespace MessageInterceptor.Business
     {
         public void Send(Message message)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Message received: {message}");
         }
     }
 }
